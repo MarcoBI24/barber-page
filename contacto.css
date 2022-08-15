@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    padding: 20px;
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+    .lbl-input{
+        font-size: calc(1rem + .1vw);
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    fieldset{
+        padding: 10px;
+        border: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    legend{
+        /* padding: 5px;
+        border-radius: 0px;
+        background-color: #777a; */
+        font-weight: bold;
+    }
+        input{
+           padding: 10px; 
+           outline: none;
+           border-radius: 3px;
+           border: 1px solid;
+        }
+        select{
+            max-width: max-content;
+        }
+        textarea{
+            height: 150px;
+            outline: none;
+            border-radius: 3px;
+            border: 1px solid;
+        }
+        button{
+            background-color: orange;
+            color: white;
+            border: 0px solid;
+            font-weight: 900;
+            border-radius: 10px;
+            transition: transform .6s;
+            padding: 15px;
+            font-size: calc(1rem + .6vw);
+        }
+        button:hover{
+            transform: scale(1.1);
+            background: darkorange;
+        }
+    table {
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+        thead {
+            background: #555555;
+            color: white;
+            font-weight: bold;
+        }
+        
+        td, th {
+            border: 1px solid #000000;
+            padding: 8px 15px;
+        }
+    
